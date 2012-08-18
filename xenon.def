@@ -1,0 +1,50 @@
+
+#xenon cfg
+PTR64 = 0
+BIGENDIAN = 1
+OSD = xenon
+AR = xenon-ar
+CC = xenon-gcc
+LD = xenon-g++
+MD = @mkdir$(EXE)
+RM = rm -f
+OBJDUMP = @xenon-objdump
+NOWERROR = 1
+CROSS_BUILD = 1
+FORCE_DRC_C_BACKEND = 1
+NOWERROR = 1
+
+SUBTARGET = tiny
+MACHDEP =  -DXENON -m32 -mno-altivec -fno-pic -mpowerpc64 -mhard-float -L$(DEVKITXENON)/usr/lib -L$(DEVKITXENON)/xenon/lib/32 -u read -u _start -u exc_base
+CCOMFLAGS =  -D__ppc__ -D__PPC__ -DXENON -m32 -mno-altivec -fno-pic -mpowerpc64 -ffast-math -funroll-loops -mhard-float -fomit-frame-pointer 
+CPPONLYFLAGS = -fpermissive
+LDSCRIPT := $(DEVKITXENON)/app.lds
+
+XENON_INCPATH = -I$(DEVKITXENON)/usr/include -I$(DEVKITXENON)/usr/include/freetype2/
+
+SYMBOLS = 1
+SYMLEVEL = 2
+MAP = 1
+
+OPTIMIZE = fast
+
+# DEBUG = 1
+# PROFILER = 1
+# PROFILE = 1
+
+HOST_AR = ar
+HOST_CC = gcc
+HOST_LD = g++
+HOST_OBJDUMP = objdump
+
+# do it only when linking libosd.a (png error ...)
+XENON_INCDIR = -I$(DEVKITXENON)/usr/include -I$(DEVKITXENON)/usr/include/freetype2
+
+#
+FILE2STR = btools/file2str
+MAKEDEP = btools/makedep
+MAKELIST = btools/makelist
+MAKEDEV = btools/makedev
+PNG2BDC = btools/png2bdc
+VERINFO = btools/verinfo
+

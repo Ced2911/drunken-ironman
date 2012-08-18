@@ -1,0 +1,13 @@
+*.zip
+chdman
+jedutil
+ldresample
+ldverify
+mametiny32
+regrep
+romcmp
+split
+src2html
+srcclean
+btools/*
+obj/*
