@@ -485,3 +485,871 @@ csclub1d
 cybotsud
 mshvsfu1d
 sfz3jr2d
+
+
+
+// Neo Geo games
+// the four digits number is the game ID stored at address 0x0108 of the program ROM
+// info on prototypes taken from http://www.members.tripod.com/fresa/proto/puzzle.htm
+neogeo
+nam1975			// 0001 (c) 1990 SNK
+bstars			// 0002 (c) 1990 SNK
+bstarsh			// 0002 (c) 1990 SNK
+tpgolf			// 0003 (c) 1990 SNK
+mahretsu		// 0004 (c) 1990 SNK
+maglord			// 0005 (c) 1990 Alpha Denshi Co.
+maglordh		// 0005 (c) 1990 Alpha Denshi Co.
+ridhero			// 0006 (c) 1990 SNK
+ridheroh		// 0006 (c) 1990 SNK
+alpham2			// 0007 (c) 1991 SNK
+alpham2p		// 0007 (c) 1991 SNK (prototype)
+				// 0008 Sunshine (prototype) 1990 SNK
+ncombat			// 0009 (c) 1990 Alpha Denshi Co.
+ncombath		// 0009 (c) 1990 Alpha Denshi Co.
+cyberlip		// 0010 (c) 1990 SNK
+superspy		// 0011 (c) 1990 SNK
+				// 0012
+				// 0013
+mutnat			// 0014 (c) 1992 SNK
+				// 0015
+kotm			// 0016 (c) 1991 SNK
+kotmh			// 0016 (c) 1991 SNK
+sengoku			// 0017 (c) 1991 SNK
+sengokuh		// 0017 (c) 1991 SNK
+burningf		// 0018 (c) 1991 SNK
+burningfh		// 0018 (c) 1991 SNK
+burningfp		// 0018 (c) 1991 SNK (prototype)
+lbowling		// 0019 (c) 1990 SNK
+gpilots			// 0020 (c) 1991 SNK
+gpilotsh		// 0020 (c) 1991 SNK
+joyjoy			// 0021 (c) 1990 SNK
+bjourney		// 0022 (c) 1990 Alpha Denshi Co.
+quizdais		// 0023 (c) 1991 SNK
+quizdaisk		// 0123 (c) 1991 SNK
+lresort			// 0024 (c) 1992 SNK
+eightman		// 0025 (c) 1991 SNK / Pallas
+				// 0026 Fun Fun Brothers (prototype) 1991 Alpha
+minasan			// 0027 (c) 1990 Monolith Corp.
+				// 0028 Dunk Star (prototype) Sammy
+legendos		// 0029 (c) 1991 SNK
+2020bb			// 0030 (c) 1991 SNK / Pallas
+2020bba			// 0030 (c) 1991 SNK / Pallas
+2020bbh			// 0030 (c) 1991 SNK / Pallas
+socbrawl		// 0031 (c) 1991 SNK
+socbrawlh		// 0031 (c) 1991 SNK
+roboarmy		// 0032 (c) 1991 SNK
+fatfury1		// 0033 (c) 1991 SNK
+fbfrenzy		// 0034 (c) 1992 SNK
+				// 0035 Mystic Wand (prototype) 1991 Alpha
+bakatono		// 0036 (c) 1991 Monolith Corp.
+crsword			// 0037 (c) 1991 Alpha Denshi Co.
+trally			// 0038 (c) 1991 Alpha Denshi Co.
+kotm2			// 0039 (c) 1992 SNK
+kotm2p			// 0039 (c) 1992 SNK (prototype)
+sengoku2		// 0040 (c) 1993 SNK
+bstars2			// 0041 (c) 1992 SNK
+quizdai2		// 0042 (c) 1992 SNK
+3countb			// 0043 (c) 1993 SNK
+aof				// 0044 (c) 1992 SNK
+samsho			// 0045 (c) 1993 SNK
+samshoh			// 0045 (c) 1993 SNK
+tophuntr		// 0046 (c) 1994 SNK
+tophuntrh		// 0046 (c) 1994 SNK
+fatfury2		// 0047 (c) 1992 SNK
+janshin			// 0048 (c) 1994 Aicom
+androdun		// 0049 (c) 1992 Visco
+ncommand		// 0050 (c) 1992 Alpha Denshi Co.
+viewpoin		// 0051 (c) 1992 Sammy
+ssideki			// 0052 (c) 1992 SNK
+wh1				// 0053 (c) 1992 Alpha Denshi Co.
+wh1h			// 0053 (c) 1992 Alpha Denshi Co.
+wh1ha			// 0053 (c) 1992 Alpha Denshi Co.
+				// 0054 Crossed Swords 2  (CD only? not confirmed, MVS might exist)
+kof94			// 0055 (c) 1994 SNK
+aof2			// 0056 (c) 1994 SNK
+aof2a			// 0056 (c) 1994 SNK
+wh2				// 0057 (c) 1993 ADK
+fatfursp		// 0058 (c) 1993 SNK
+fatfurspa		// 0058 (c) 1993 SNK
+savagere		// 0059 (c) 1995 SNK
+fightfev		// 0060 (c) 1994 Viccom
+fightfeva		// 0060 (c) 1994 Viccom
+ssideki2		// 0061 (c) 1994 SNK
+spinmast		// 0062 (c) 1993 Data East Corporation
+samsho2			// 0063 (c) 1994 SNK
+samsho2k		// 0063 (c) 1994 SNK (Korean hack)
+wh2j			// 0064 (c) 1994 ADK / SNK
+wjammers		// 0065 (c) 1994 Data East Corporation
+karnovr			// 0066 (c) 1994 Data East Corporation
+gururin			// 0067 (c) 1994 Face
+pspikes2		// 0068 (c) 1994 Video System Co.
+				// Super Volley '94 was once released in Mar.1994, and recalled. Then released as Power Spikes 2 (with some tweaks).
+fatfury3		// 0069 (c) 1995 SNK
+zupapa			// 0070 Zupapa - released in 2001, 1994 prototype probably exists
+				// 0071 Bang Bang Busters (prototype) 1994 Visco
+				// 0072 Last Odyssey Pinball Fantasia (prototype) 1995 Monolith
+panicbom		// 0073 (c) 1994 Eighting / Hudson
+aodk			// 0074 (c) 1994 ADK / SNK
+sonicwi2		// 0075 (c) 1994 Video System Co.
+zedblade		// 0076 (c) 1994 NMK
+				// 0077 The Warlocks of the Fates (prototype) 1995 Astec
+galaxyfg		// 0078 (c) 1995 Sunsoft
+strhoop			// 0079 (c) 1994 Data East Corporation
+quizkof			// 0080 (c) 1995 Saurus
+quizkofk		// 0080 (c) 1995 Saurus
+ssideki3		// 0081 (c) 1995 SNK
+doubledr		// 0082 (c) 1995 Technos
+pbobblen		// 0083 (c) 1994 Taito
+pbobblenb		// bootleg
+kof95			// 0084 (c) 1995 SNK
+kof95h			// 0084 (c) 1995 SNK
+				// 0085 Shinsetsu Samurai Spirits Bushidoretsuden / Samurai Shodown RPG (CD only)
+tws96			// 0086 (c) 1996 Tecmo
+samsho3			// 0087 (c) 1995 SNK
+samsho3h		// 0087 (c) 1995 SNK
+fswords			// 0187 Korean hack of samsho3
+stakwin			// 0088 (c) 1995 Saurus
+pulstar			// 0089 (c) 1995 Aicom
+whp				// 0090 (c) 1995 ADK / SNK
+				// 0091
+kabukikl		// 0092 (c) 1995 Hudson
+neobombe		// 0093 (c) 1997 Hudson
+gowcaizr		// 0094 (c) 1995 Technos
+rbff1			// 0095 (c) 1995 SNK
+rbff1a			// 0095 (c) 1995 SNK
+aof3			// 0096 (c) 1996 SNK
+aof3k			// 0196 Censored Korean release of aof3
+sonicwi3		// 0097 (c) 1995 Video System Co.
+				// 0098 Idol Mahjong - final romance 2 (CD only? not confirmed, MVS might exist)
+				// 0099 Neo Pool Masters
+turfmast		// 0200 (c) 1996 Nazca
+mslug			// 0201 (c) 1996 Nazca
+puzzledp		// 0202 (c) 1995 Taito (Visco license)
+mosyougi		// 0203 (c) 1995 ADK / SNK
+				// 0204 QP (prototype)
+				// 0205 Neo-Geo CD Special (CD only)
+marukodq		// 0206 (c) 1995 Takara
+neomrdo			// 0207 (c) 1996 Visco
+sdodgeb			// 0208 (c) 1996 Technos
+goalx3			// 0209 (c) 1995 Visco
+				// 0210 Karate Ninja Sho (prototype) 1995 Yumekobo
+				// 0211 Oshidashi Zintrick (CD only? not confirmed, MVS might exist) 1996 SNK/ADK
+zintrckb		// 0211 hack - this is not a genuine MVS proto, its a bootleg made from the CD version
+overtop			// 0212 (c) 1996 ADK
+neodrift		// 0213 (c) 1996 Visco
+kof96			// 0214 (c) 1996 SNK
+kof96h			// 0214 (c) 1996 SNK
+ssideki4		// 0215 (c) 1996 SNK
+kizuna			// 0216 (c) 1996 SNK
+				//  Fu-un Super Tag Battle Special Version (4-player battle available) exists
+ninjamas		// 0217 (c) 1996 ADK / SNK
+ragnagrd		// 0218 (c) 1996 Saurus
+pgoal			// 0219 (c) 1996 Saurus
+ironclad		// 0220 (c) 1996 Saurus - Choutetsu Brikin'ger - Iron clad (protoype)
+ironclado		// 0220 (c) 1996 Saurus - Choutetsu Brikin'ger - Iron clad (protoype, older)
+magdrop2		// 0221 (c) 1996 Data East Corporation
+samsho4			// 0222 (c) 1996 SNK
+samsho4k		// Censored Korean release of samsho4
+rbffspec		// 0223 (c) 1996 SNK
+rbffspeck		// 0124 (c) 1996 SNK
+twinspri		// 0224 (c) 1996 ADK
+wakuwak7		// 0225 (c) 1996 Sunsoft
+				// 0226 Pair Pair Wars (prototype) 1996 Sunsoft?
+stakwin2		// 0227 (c) 1996 Saurus
+ghostlop		// 0228 GhostLop (prototype) 1996? Data East
+				// 0229 King of Fighters '96 CD Collection (CD only)
+breakers		// 0230 (c) 1996 Visco
+miexchng		// 0231 (c) 1997 Face
+kof97			// 0232 (c) 1997 SNK
+kof97h			// 0232 (c) 1997 SNK
+kof97k			// 0232 (c) 1997 SNK
+kof97pls		// bootleg of kof97
+kog			// bootleg of kof97
+magdrop3		// 0233 (c) 1997 Data East Corporation
+lastblad		// 0234 (c) 1997 SNK
+lastbladh		// 0234 (c) 1997 SNK
+lastsold		// 0196 Censored Korean release of lastblad
+puzzldpr		// 0235 (c) 1997 Taito (Visco license)
+irrmaze			// 0236 (c) 1997 SNK / Saurus
+popbounc		// 0237 (c) 1997 Video System Co.
+shocktro		// 0238 (c) 1997 Saurus
+shocktroa		// 0238 (c) 1997 Saurus
+blazstar		// 0239 (c) 1998 Yumekobo
+rbff2			// 0240 (c) 1998 SNK
+rbff2h			// 0240 (c) 1998 SNK
+rbff2k			// 0140 Censored Korean release of rbff2
+mslug2			// 0241 (c) 1998 SNK
+kof98			// 0242 (c) 1998 SNK
+kof98k			// 0242 (c) 1998 SNK
+kof98ka			// 0242 (c) 1998 SNK
+kof98h			// 0242 (c) 1998 SNK
+lastbld2		// 0243 (c) 1998 SNK
+neocup98		// 0244 (c) 1998 SNK
+breakrev		// 0245 (c) 1998 Visco
+shocktr2		// 0246 (c) 1998 Saurus
+lans2004		// bootleg of shocktr2
+flipshot		// 0247 (c) 1998 Visco
+pbobbl2n		// 0248 (c) 1999 Taito (SNK license)
+ctomaday		// 0249 (c) 1999 Visco
+mslugx			// 0250 (c) 1999 SNK
+kof99			// 0251 (c) 1999 SNK
+kof99h			// 0251 (c) 1999 SNK
+kof99e			// 0251 (c) 1999 SNK
+kof99k			// 0152 (c) 1999 SNK
+kof99p			// 0251 (c) 1999 SNK
+ganryu			// 0252 (c) 1999 Visco
+garou			// 0253 (c) 1999 SNK
+garouh			// 0253 (c) 1999 SNK
+garoup			// 0253 (c) 1999 SNK
+garoubl			// bootleg
+s1945p			// 0254 (c) 1999 Psikyo
+preisle2		// 0255 (c) 1999 Yumekobo
+mslug3			// 0256 (c) 2000 SNK
+mslug3h			// 0256 (c) 2000 SNK
+mslug3b6		// bootleg
+kof2000			// 0257 (c) 2000 SNK
+kof2000n		// 0257 (c) 2000 SNK
+				// 0258 SNK vs. Capcom?
+bangbead		// 0259 (c) 2000 Visco
+nitd			// 0260 (c) 2000 Eleven / Gavaking
+nitdbl			// bootleg
+sengoku3		// 0261 (c) 2001 Noise Factory / SNK
+kof2001			// 0262 (c) 2001 Eolith / SNK
+kof2001h		// 0262 (c) 2001 Eolith / SNK
+cthd2003		// bootleg of kof2001
+ct2k3sp			// bootleg of kof2001
+ct2k3sa			// bootleg of kof2001
+mslug4			// 0263 (c) 2002 Mega Enterprise
+mslug4h			// 0263 (c) 2002 Mega Enterprise
+ms4plus			// bootleg
+rotd			// 0264 (c) 2002 Evoga
+kof2002			// 0265 (c) 2002 Eolith / Playmore
+kof2002b		// bootleg
+kf2k2pls		// bootleg
+kf2k2pla		// bootleg
+kf2k2mp			// bootleg
+kf2k2mp2		// bootleg
+kof10th			// bootleg of kof2002
+kf2k5uni		// bootleg of kof2002
+kf10thep		// bootleg of kof2002
+kof2k4se		// bootleg of kof2002
+matrim			// 0266 (c) 2002 Atlus
+matrimbl		// bootleg
+pnyaa			// 0267 (c) 2003 Aiky / Taito
+ms5pcb			// 0268 (c) 2003 Playmore
+mslug5			// 0268 (c) 2003 Playmore
+mslug5h			// 0268 (c) 2003 Playmore
+ms5plus			// bootleg
+svcpcb			// 0269 (c) 2003 Playmore / Capcom - JAMMA PCB
+svcpcba			// 0269 (c) 2003 Playmore / Capcom - JAMMA PCB
+svc				// 0269 (c) 2003 Playmore / Capcom
+svcboot			// bootleg
+svcplus			// bootleg
+svcplusa		// bootleg
+svcsplus		// bootleg
+samsho5			// 0270 (c) 2003 Playmore
+samsho5h		// 0270 (c) 2003 Playmore
+samsho5b		// bootleg
+kf2k3pcb		// 0271 (c) 2003 Playmore - JAMMA PCB
+kof2003			// 0271 (c) 2003 Playmore
+kof2003h		// 0271 (c) 2003 Playmore
+kf2k3bl			// bootleg
+kf2k3bla		// bootleg
+kf2k3pl			// bootleg
+kf2k3upl		// bootleg
+samsh5sp		// 0272 (c) 2004 Playmore
+samsh5sph		// 0272 (c) 2004 Playmore
+samsh5spho		// 0272 (c) 2004 Playmore
+
+// Unlicensed commercial releases (no game ID)
+jockeygp
+jockeygpa
+vliner
+vlinero
+
+diggerma		// No Game ID (unlicensed), (c) 2000 Kyle Hodgetts, prototype
+
+sbp				// (c)2004 Vektorlogik
+
+
+
+// Gremlin 8080 games
+// the numbers listed are the range of ROM part numbers
+blockade		// 1-4 [1977 Gremlin]
+comotion		// 5-7 [1977 Gremlin]
+hustle			// 16-21 [1977 Gremlin]
+blasto			// [1978 Gremlin]
+mineswpr		// [1977 Amutech]
+mineswpr4		// [1977 Amutech]
+
+// Gremlin/Sega "VIC dual game board" games
+// the numbers listed are the range of ROM part numbers
+depthch			// 50-55 [1977 Gremlin?]
+depthcho		//   ?   [1977 Gremlin?]
+subhunt			//   ?   [1977 Taito]
+safari			// 57-66 [1977 Gremlin?]
+safaria			// bootleg?
+frogs			// 112-119 [1978 Gremlin?]
+sspaceat		// 155-162 (c)
+sspaceat2		// 155-162 (c) 1979 Sega
+sspaceat3		// 155-162 (c) 1979 Sega
+sspaceatc		// 139-146 (c)
+sspacaho		// ? epr00001.bin - epr00008.bin
+headon			// 163-167/192-193 (c) Gremlin
+headonb			// 163-167/192-193 (c) Gremlin
+headons			// Sidam bootleg
+headonsa		// Sidam bootleg
+supcrash		// bootleg
+hocrash			// bootleg
+headon2			// ???-??? (c) 1979 Sega
+headon2s		// Sidam bootleg
+car2			// bootleg
+				// ???-??? Fortress
+				// ???-??? Gee Bee
+				// 255-270  Head On 2 / Deep Scan
+invho2			// 271-286 (c) 1979 Sega
+nsub			// 268-275 (c) 1980 Sega
+samurai			// 289-302 + upgrades (c) 1980 Sega
+invinco			// 310-318 (c) 1979 Sega
+invds			// 367-382 (c) 1979 Sega
+tranqgun		// 413-428 (c) 1980 Sega
+				// 450-465  Tranquilizer Gun (different version?)
+				// ???-??? Car Hunt / Deep Scan
+spacetrk		// 630-645 (c) 1980 Sega
+spacetrkc		// (c) 1980 Sega
+carnival		// 651-666 (c) 1980 Sega
+carnivalc		// 501-516 (c) 1980 Sega
+carnivalh
+carnivalha
+brdrline		// (c) 1980 Sega
+starrkr			// (c) 1981 Sega
+brdrlins		// Sidam bootleg
+brdrlinb		// Karateco bootleg
+digger			// 684-691 no copyright notice
+pulsar			// 790-805 (c) 1981 Sega
+heiankyo		// (c) [1979?] Denki Onkyo
+alphaho			// Data East
+
+// Sega G-80 vector games
+spacfury		// (c) 1981
+spacfurya		// no copyright notice
+spacfuryb		// no copyright notice
+zektor			// (c) 1982
+tacscan			// (c) 1982
+elim2			// (c) 1981 Gremlin
+elim2a			// (c) 1981 Gremlin
+elim2c			// (c) 1981 Gremlin
+elim4			// (c) 1981 Gremlin
+elim4p			// (c) 1981 Gremlin
+startrek		// (c) 1982
+
+// Sega G-80 raster games
+astrob			// (c) 1981
+astrob2			// (c) 1981
+astrob2a		// (c) 1981
+astrob1			// (c) 1981
+astrobg			// (c) 1981
+005				// (c) 1981
+monsterb		// (c) 1982
+monsterb2		// (c) 1982
+spaceod			// (c) 1981
+spaceod2		// (c) 1981
+pignewt			// (c) 1983
+pignewta		// (c) 1983
+sindbadm		// 834-5244 (c) 1983 Sega
+
+// Sega "Zaxxon hardware" games
+zaxxon			// (c) 1982
+zaxxonj			// (c) 1982
+zaxxon2			// (c) 1982
+zaxxon3			// (c) 1982
+zaxxonb			// bootleg
+szaxxon			// (c) 1982
+futspy			// (c) 1984
+razmataz		// modified 834-0213, 834-0214 (c) 1983
+ixion			// (c) 1983
+congo			// 605-5167 (c) 1983 (2 board stack)
+congoa			// 605-5167 (c) 1983 (3 board stack)
+tiptop			// 605-5167 (c) 1983 (3 board stack)
+
+// Sega "LaserDisc hardware" games
+astron			// (c) 1983
+astronp			// (c) 1983
+galaxyr			// (c) 1983
+galaxyrp		// (c) 1983
+sblazerp		// (c) 1983
+cobraseg		// (c) ????
+gpworld			// (c) 1984
+timetrv			// (c) 1991.10 Virtual Image Productions
+
+// Sega SG1000 based games
+chboxing		// (c) 1984
+chwrestl		// (c) 1985
+dokidoki		// (c) 1985
+
+// Sega System 1 / System 2 games
+starjack		// 834-5191 (c) 1983 (S1)
+starjacks		// (c) 1983 Stern (S1)
+regulus			// 834-5328?(c) 1983 (S1)
+reguluso		// 834-5328?(c) 1983 (S1)
+regulusu		// 834-5328?(c) 1983 (S1)
+upndown			// (c) 1983 (S1)
+upndownu		// (c) 1983 (S1)
+mrviking		// 834-5383 (c) 1984 (S1)
+mrvikingj		// 834-5383 (c) 1984 (S1)
+swat			// 834-5388 (c) 1984 Coreland / Sega (S1)
+flicky			// (c) 1984 (S1)
+flickys2		// (c) 1984 (S1)
+flickyo			// (c) 1984 (S1)
+flickys1		// (c) 1984 (S1)
+wmatch			// (c) 1984 (S1)
+bullfgt			// 834-5478 (c) 1984 Sega / Coreland (S1)
+thetogyu		// 834-5478 (c) 1984 Sega / Coreland (S1)
+spatter			// 834-5583 (c) 1984 (S1)
+ssanchan		// 834-5583 (c) 1984 (S1)
+pitfall2		// 834-5627 [1985?] reprogrammed, (c) 1984 Activision (S1)
+pitfall2a		// 834-5627 [1985?] reprogrammed, (c) 1984 Activision (S1)
+pitfall2u		// 834-5627 [1985?] reprogrammed, (c) 1984 Activision (S1)
+seganinj		// 834-5677 (c) 1985 (S1)
+seganinju		// 834-5677 (c) 1985 (S1)
+ninja			// 834-5677 (c) 1985 (S1)
+nprinces		// 834-5677 (c) 1985 (S1)
+nprinceso		// 834-5677 (c) 1985 (S1)
+nprincesu		// 834-5677 (c) 1985 (S1)
+nprincesb		// bootleg? (S1)
+imsorry			// 834-5707 (c) 1985 Coreland / Sega (S1)
+imsorryj		// 834-5707 (c) 1985 Coreland / Sega (S1)
+teddybb			// 834-5712 (c) 1985 (S1)
+teddybbo		// 834-5712 (c) 1985 (S1)
+hvymetal		// 834-5745 (c) 1985 (S2?)
+myhero			// 834-5755 (c) 1985 (S1)
+sscandal		// 834-5755 (c) 1985 Coreland / Sega (S1)
+myherok			// 834-5755 (c) 1985 Coreland / Sega (S1)
+shtngmst		// 834-5719/5720 (c) 1985 (S2)
+shtngmste		// 834-5719/5720 (c) 1985 (S2)
+choplift		// 834-5795 (c) 1985, (c) 1982 Dan Gorlin (S2)
+chopliftu		// 834-5795 (c) 1985, (c) 1982 Dan Gorlin (S2)
+chopliftbl		// bootleg (S2)
+4dwarrio		// 834-5918 (c) 1985 Coreland / Sega (S1)
+brain			// (c) 1986 Coreland / Sega (S2?)
+raflesia		// 834-5753 (c) 1985 Coreland / Sega (S1)
+wboy			// 834-5984 (c) 1986 + Escape license (S1)
+wboyo			// 834-5984 (c) 1986 + Escape license (S1)
+wboy2			// 834-5984 (c) 1986 + Escape license (S1)
+wboy2u			// 834-5984 (c) 1986 + Escape license (S1)
+wboy3			// 834-5984 (c) 1986 + Escape license (S1)
+wboy4			// 834-5984 (c) 1986 + Escape license (S1)
+wboy5			// 834-5984 (c) 1986 + Escape license (S1)
+wboyu			// 834-5753 (? maybe a conversion) (c) 1986 + Escape license (S1)
+wboyub			// bootleg of wboyu
+wbdeluxe		// (c) 1986 + Escape license (S1)
+wboysys2		// 834-5984  (c) 1986 + Escape license (S1)
+gardia			// 834-6119 (S2?)
+gardiab			// bootleg
+nob				// (c) Data East
+nobb			// bootleg
+blockgal		// 834-6303 (S1)
+blockgalb		// bootleg
+tokisens		// (c) 1987 (from a bootleg board) (S2)
+wbml			// bootleg (S2)
+wbmljo			// (c) 1987 Sega/Westone (S2)
+wbmljb			// (c) 1987 Sega/Westone (S2)
+wbmlb			// bootleg? (S2)
+wbmlbg			// bootleg (Galaxy Electronics)
+dakkochn		// 836-6483? (S2)
+ufosensi		// 834-6659 (S2)
+ufosensib		// bootleg
+/*
+other System 1 / System 2 games:
+
+WarBall
+DokiDoki Penguin Land *not confirmed
+*/
+
+// Sega System E games (Master System hardware)
+hangonjr		// (c) 1985
+transfrm		// 834-5803 (c) 1986
+astrofl			// 834-5803 (c) 1986
+ridleofp		// (c) 1986 Sega / Nasco
+fantzn2			// (c) 1988
+opaopa
+tetrisse		// (c) 1988
+
+// Shooting Zone (SMS Gun Games on a timer)
+shtzone			// (c) 1987
+
+// other Sega 8-bit games
+turbo			// (c) 1981 Sega
+turboa			// (c) 1981 Sega
+turbob			// (c) 1981 Sega
+subroc3d		// (c) 1982 Sega
+buckrog			// (c) 1982 Sega
+buckrogn		// (c) 1982 Sega
+buckrogn2		// (c) 1982 Sega
+zoom909			// (c) 1982 Sega
+kopunch			// 834-0103 (c) 1981 Sega
+suprloco		// (c) 1982 Sega
+suprlocoa		// (c) 1982 Sega
+dotrikun		// cabinet test board
+dotrikun2		// cabinet test board
+spcpostn		// (c) 1986 Sega / Nasco"
+angelkds		// 833-6599 (c) 1988 Sega / Nasco?
+calorie			// (c) 1986 Sega
+calorieb		// (c) 1986 Sega (but bootleg)
+
+// Bingo-based games
+bingoc			// (c) 1989 Sega
+// Bingo Fantasy // (c) 19?? Sega
+// Bingo Star    // (c) 19?? Sega
+// Bingo Party   // (c) 1993 Sega
+// BP Phoenix    // (c) 1998 Sega
+// BP Special    // (c) 2000 Sega
+// BP Multicards // (c) 2002 Sega
+// BP Splash     // (c) 2002 Sega
+// Bingo Planet  // (c) 1997 Sega
+
+segajw
+
+// Enduro Racer / Space Harrier / Hang On
+enduror			// (c) 1985 (FD1089B, decrypted)
+enduror1		// (c) 1985 (FD1089B, decrypted)
+endurob2		// (c) 1985 (Beta bootleg)
+endurobl		// (c) 1985 (Herb bootleg)
+hangon			// (c) 1985 (Rev A)
+hangon1			// (c) 1985
+sharrier		// (c) 1985
+sharrier1		// (c) 1985
+shangonro		// (c) 1987 (FD1094, decrypted)
+shangonrb		// (c) 1992 (but bootleg, hangon hw?)
+
+// Pre-16
+aliensynjo		// (c) 1987 (FD1089A, decrypted)
+aliensyn2		// (c) 1987 (FD1089A, decrypted)
+aliensyn5		// (c) 1987 (FD1089B)
+bodyslam		// (c) 1986 (8751)
+dumpmtmt		// (c) 1986 (Japan)
+mjleague		// (c) 1985
+quartet			// (c) 1986 (8751)
+quarteta		// (c) 1986 (8751)
+quartet2		// (c) 1986 (8751)
+quartet2a		// (c) 1986
+
+// System 16A
+aceattaca		// (c) 1988 (FD1094, decrypted)
+afighter		// (c) 1986 (FD1089A, decrypted)
+alexkidd		// (c) 1986 (FD1089A, decrypted)
+alexkidd1		// (c) 1986
+fantzone		// (c) 1986 (Unprotected Rev A)
+fantzone1		// (c) 1986 (Unprotected)
+fantzonep		// (c) 1986 (NEC 0317-5000, encrypted)
+sdi				// (c) 1987 (FD1089B, decrypted)
+shinobi			// (c) 1987
+shinobi1		// (c) 1987 (FD1094, decrypted)
+shinobls		// (c) 1987 (Star bootleg)
+sjryuko1		// (c) 1988 White Board (FD1089B, decrypted)
+tetris			// (c) 1988 (FD1094, decrypted) S16A
+tetris3			// (c) 1988 (FD1094, decrypted) S16A
+timescan1		// (c) 1987 (FD1089B, decrypted)
+wb31			// (c) 1988 Sega / Westone (FD1094, decrypted)
+wb35			// (c) 1988 Sega / Westone (FD1089A, decrypted)
+wb35a			// (c) 1988 Sega / Westone (FD1089A, decrypted)
+passsht16a		// (c) 1988
+
+// System 16B
+aceattac		// (c) 1988 (protected)
+aliensyn		// (c) 1987
+aliensyn3		// (c) 1987 (FD1089A, decrypted)
+aliensynj		// (c) 1987 (FD1089A, decrypted)
+altbeast		// (c) 1988 (8751)
+altbeastj		// (c) 1988 (8751)
+altbeast6		// (c) 1988 (8751)
+altbeast5		// (c) 1988 (FD1094, decrypted)
+altbeast4		// (c) 1988 (MC-8123B)
+altbeast2		// (c) 1988 (MC-8123B)
+altbeastj1		// (c) 1988 (protected)
+altbeastj3		// (c) 1988 (FD1094, decrypted)
+aurail			// (c) 1990 Sega / Westone
+aurail1			// (c) 1990 Sega / Westone (FD1089B, decrypted)
+aurailj			// (C) 1990 Sega / Westone (FD1089A, decrypted)
+bayroute		// (c) 1989 Sunsoft / Sega (FD1094, decrypted)
+bayroutej		// (c) 1989 Sunsoft / Sega (FD1094, decrypted)
+bayroute1		// (c) 1989 Sunsoft / Sega
+bullet			// (c) 1987 (protected)
+cotton			// (c) 1990 (FD1094, decrypted)
+cottonu			// (c) 1990 (FD1094, decrypted)
+cottonj			// (c) 1990 (FD1094, decrypted)
+ddux			// (c) 1989 (FD1094, decrypted)
+ddux1			// (c) 1989 (8751)
+dunkshot		// (c) 1986 (FD1094, decrypted)
+eswat			// (c) 1989 (FD1094, decrypted)
+eswatu			// (c) 1989 (FD1094, decrypted)
+eswatj			// (c) 1989 (FD1094, decrypted)
+exctleag		// (protected)
+fpoint			// (c) 1989 (Japan, FD1094, decrypted)
+fpoint1			// (c) 1989 (Japan, FD1094, decrypted)
+goldnaxe		// (c) 1989 (8751)
+goldnaxeu		// (c) 1989 (protected)
+goldnaxej		// (c) 1989 (FD1094, decrypted)
+goldnaxe3		// (c) 1989 (FD1094, decrypted)
+goldnaxe2		// (c) 1989 (8751)
+goldnaxe1		// (c) 1989 (FD1094, decrypted)
+hwchamp			// (c) 1987
+hwchampj		// (c) 1987 (FD1094, decrypted)
+mvp				// (c) 1989 (FD1094, decrypted)
+mvpj			// (c) 1989 (FD1094, decrypted)
+passsht			// (c) 1988 (FD1094, decrypted)
+passshta		// (c) 1988 (FD1094, decrypted)
+passshtj		// (c) 1988 (FD1094, decrypted)
+riotcity		// (c) 1991 Sega / Westone
+ryukyu			// (c) 1990 (FD1094, decrypted)
+sdib			// (c) 1987 (FD1089A, decrypted)
+sdibl			// (c) 1987 bootleg
+defense			// (c) 1987 (FD1094, decrypted)
+shinobi5		// (c) 1987
+shinobi4		// (c) 1987 (MC-8123B)
+shinobi3		// (c) 1987 (MC-8123B)
+shinobi2		// (c) 1987 (FD1094, decrypted)
+sonicbom		// (c) 1987 (FD1094, decrypted)
+sjryuko			// (c) 1988 White Board (FD1094, decrypted)
+suprleag		// (c) 1987 (protected)
+tetris2			// (c) 1988 (FD1094, decrypted) S16B
+tetris1			// (c) 1988 (FD1094, decrypted) S16B
+timescan		// (c) 1987
+toryumon		// (c) 1995
+tturf			// (c) 1989 Sega / Sunsoft (8751)
+tturfu			// (c) 1989 Sega / Sunsoft (8751)
+wb3				// (c) 1988 Sega / Westone (8751)
+wb34			// (c) 1988 Sega / Westone (FD1094, decrypted)
+wb33			// (c) 1988 Sega / Westone (FD1094, decrypted)
+wb32			// (c) 1988 Sega / Westone (FD1094, decrypted)
+wrestwar		// (c) 1989 (8751)
+wrestwar2		// (c) 1989 (FD1094, decrypted)
+wrestwar1		// (c) 1989 (FD1094, decrypted)
+
+// Philko Boards
+atomicp			// (c) 1990 Philko - korean clone board
+snapper			// (c) 1990 Philko - korean clone board
+
+// S16 Bootlegs
+bayrouteb1		// (c) 1989 (protected) (bootleg)
+bayrouteb2		// (c) 1989 (protected) (bootleg)
+dduxbl			// (c) 1989 (Datsu bootleg)
+eswatbl			// BOOTLEG
+fpointbl		// (c) 1989 (Datsu bootleg)
+fpointbj		// (c) 1989 (Datsu bootleg, Japan)
+goldnaxeb1		// BOOTLEG
+goldnaxeb2		// BOOTLEG
+passht4b		// bootleg
+passshtb		// bootleg
+shinoblb		// (c) 1987 (but bootleg)
+shinobld		// (c) 1987 (but bootleg)
+tetrisbl		// (c) 1988 (but bootleg)
+beautyb			// (c) 1991 AMT
+iqpipe			// (c) 1991 AMT
+tturfbl			// (c) 1989 (Datsu bootleg)
+wb3bbl			// BOOTLEG
+
+// ISG S16 bootleg system
+isgsm
+tetrbx
+shinfz
+
+// System 18
+shdancer		// 1989.05 Shadow Dancer (US)
+shdancerj		// 1989.11 Shadow Dancer (Japan)
+shdancer1		// 1989.?? Shadow Dancer (World)
+bloxeed			// 1989.12 Bloxeed (Japan, FD1094, decrypted)
+				// 1990.04 Bloxeed (US)
+astormu			// 1990.04 Alien Storm (US, FD1094, decrypted)
+astormj			// 1990.05 Alien Storm (Japan, FD1094, decrypted)
+astorm			// 1990.?? Alien Storm (World, protected 2 Players)
+astorm3			// 1990.?? Alien Storm (World, FD1094, decrypted)
+mwalku			// 1990.08 Micheal Jackson's Moonwalker (US, FD1094+8751, decrypted)
+mwalkj			// 1990.08 Micheal Jackson's Moonwalker (Japan, FD1094+8751, decrypted)
+mwalk			// 1990.?? Micheal Jackson's Moonwalker (World, FD1094+8751, decrypted)
+lghost			// 1990.?? Laser Ghost (World, FD1094, decrypted)
+				// 1990.12 Laser Ghost (Japan)
+lghostu			// 1991.01 Laser Ghost (US, FD1094, decrypted)
+cltchitr		// 1991.02 Clutch Hitter (US, FD1094, decrypted)
+cltchitrj		// 1991.05 Clutch Hitter (Japan, FD1094, decrypted)
+ddcrewj			// 1991.07 D.D.Crew (Japan, FD1094, decrypted)
+ddcrewu			// 1991.09 D.D.Crew (US, FD1094, decrypted)
+ddcrew			// 1991.?? D.D.Crew (World, FD1094, decrypted)
+ddcrew2			// 1991.?? D.D.Crew (World, FD1094, decrypted)
+ddcrew1			// 1991.?? D.D.Crew (World, FD1094, decrypted)
+wwallyj			// 1992.06 Wally wo Sagase! (Japan, FD1094, decrypted)
+wwallyja		// 1992.06 Wally wo Sagase! (Japan, FD1094, decrypted)
+desertbr		// 1993.?? Desert Breaker (World, FD1094, decrypted)
+desertbrj		// 1992.10 Desert Breaker (Japan)
+pontoon
+
+// System18 Bootlegs
+astormbl		// BOOTLEG
+astormb2		// BOOTLEG
+shdancbl		// BOOTLEG
+mwalkbl			// BOOTLEG
+
+
+// Outrun Hardware
+				// 1986.09 Outrun (Japan)
+				// 1986.11 Outrun (US)
+				// 1986.?? Outrun (World)
+outrun			// Revision B
+outrunra		// Revision A
+outruno			// First version
+outrundx		// Deluxe version
+outrunb			// 1986 (protected beta bootleg)
+				// 1987.04 Super Hang-On (Japan)
+				// 1987.06 Super Hang-On (US)
+				// 1987.?? Super Hang-On (World)
+shangon			// 1987 (protected)
+shangon3		// 1987 (FD1089B, decrypted)
+shangon2		// 1987 (FD1089B, decrypted)
+shangon1		// 1987 (FD1089B, decrypted)
+shangonle		// 1991
+				// 1989.02 Turbo Outrun (Japan)
+				// 1989.04 Turbo Outrun (US)
+				// 1989.?? Turbo Outrun (World)
+toutrun			// 1987 (FD1094, decrypted)
+toutrun3		// 1987 (FD1094, decrypted)
+toutrun2		// 1987 (protected)
+toutrun1		// 1987 (FD1094, decrypted)
+
+// X Board
+aburner			// 1987.07 After Burner (Japan)
+aburner2		// 1987.09 After Burner II (Japan)
+thndrbld1		// 1987.12 Thunder Blade (Japan, deluxe/standard)
+thndrbld		// 1988.02 Thunder Blade (US?, upright, FD1094, decrypted)
+				// 1989.01 Last Survivor (Japan)
+smgpj			// 1989.06 Super Monaco GP (Japan, FD1094, decrypted)
+smgpja			// 1989.06 Super Monaco GP (Japan, FD1094, decrypted)
+smgp			// 1989.?? Super Monaco GP (World, FD1094, decrypted)
+smgp6			// 1989.?? Super Monaco GP (World, FD1094, decrypted)
+smgp5			// 1989.?? Super Monaco GP (World, FD1094, decrypted)
+smgpu			// 1989.08 Super Monaco GP (US, FD1094, decrypted)
+smgpu1			// 1989.08 Super Monaco GP (US, FD1094, decrypted)
+smgpu2			// 1989.08 Super Monaco GP (US, FD1094, decrypted)
+loffirej		// 1989.12 Line of Fire (Japan, FD1094, decrypted)
+loffire			// 1989.?? Line of Fire (World, FD1094, decrypted)
+loffireu		// 1990.04 Line of Fire (US, FD1094, decrypted)
+				// 1990.03 Racing Hero (Japan)
+rachero			// 1990.?? Racing Hero (World, FD1094, decrypted)
+abcop			// 1990.?? A.B.Cop (World, FD1094, decrypted)
+				// 1991.01 A.B.Cop (Japan)
+				// 1990.10 GP Rider (Japan)
+gprider			// 1990.?? GP Rider (World, protected)
+gprider1		// 1990.12 GP Rider (US, FD1094, decrypted)
+
+// Y-Board
+				// 1988.05 Galaxy Force (Japan)
+				// 1988.08 Galaxy Force (US)
+gforce2j		// 1988.07 Galaxy Force II (Japan)
+gforce2ja		// 1988.07 Galaxy Force II (Japan)
+gforce2			// 1988.?? Galaxy Force II (World)
+				// 1988.12 Galaxy Force II (US)
+				// 1988.08 Power Drift (US)
+pdriftj			// 1988.09 Power Drift (Japan)
+pdrift			// 1988.?? Power Drift (World)
+pdrifta
+pdrifte
+gloc			// 1990.04 G-LOC Air Battle (US)
+				// 1990.05 G-LOC Air Battle (Japan)
+glocr360		// 1990.?? G-LOC (R360, World?)
+strkfgtr		// 1991.06 Strike Fighter (Japan)
+rchase			// 1991.09 Rail Chase (World)
+rchasej			// 1991.09 Rail Chase (Japan)
+				// 1991.09 Rail Chase (US)
+
+// Sega System 24 games
+// disk based
+hotrodj			// 1988.03 Hot Rod (Japan)
+hotrod			// 1988.?? Hot Rod (World)
+hotroda
+				// 1988.07 Hot Rod (US)
+sspiritj		// 1988.10 Scramble Spirits (Japan)
+sspirits		// 1988.?? Scramble Spirits (World)
+sspirtfc		// 1988.?? Scramble Spirits (protected)
+				// 1988.11 Scramble Spirits (US)
+ggroundj		// 1988.11 Gain Ground (Japan, FD1094, decrypted)
+gground			// 1989.?? Gain Ground (World, FD1094, decrypted)
+				// 1989.03 Gain Ground (US)
+crkdownj		// 1989.03 Crack Down (Japan, FD1094, decrypted)
+crkdown			// 1989.?? Crack Down (World, FD1094, decrypted)
+crkdownu		// 1989.06 Crack Down (US, FD1094, decrypted)
+sgmastj			// 1989.06 Jumbo Ozaki Super Masters (Japan, FD1094, decrypted)
+sgmast			// 1989.?? Super Masters Golf (World, protected)
+sgmastc			// 1989.?? Jumbo Ozaki Super Masters Golf (World, FD1094, decrypted)
+				// 1989.09 Super Masters Golf (US)
+roughrac		// 1990.03 Rough Racer (Japan, FD1094, decrypted)
+bnzabrosj		// 1990.06 Bonanza Bros. (Japan)
+bnzabros		// 1990.08 Bonanza Bros. (US)
+qsww			// 1991.02 Quiz Syukudai wo Wasuremashita! (Japan)
+dcclubfd		// 1991.07 Dynamic Country Club (US)
+
+// ROM based
+dcclubj			// 1991.06 Dynamic Country Club (Japan)
+dcclub			// 1991.?? Dynamic Country Club (World)
+qrouka			// 1991.12 Quiz Rouka ni Tattenasai! (Japan)
+mahmajn			// 1992.12 Tokorosan no Mahmahjong (Japan)
+quizmeku		// 1993.05 Quiz Mekurumeku Story (Japan)
+mahmajn2		// 1994.05 Tokorosan no Mahmahjong 2 (Japan)
+qgh				// 1994.09 Quiz Ghost Hunter
+
+// Sega System 32 games
+radm			// 1991.?? Rad Mobile (World)
+radmu			// 1991.03 Rad Mobile (US)
+				// 1991.02 Rad Mobile (Japan)
+radr			// 1991.?? Rad Rally (World)
+radru			// 1991.09 Rad Rally (US)
+radrj			// 1991.07 Rad Rally (Japan)
+spidman			// 1991.?? Spiderman (World)
+spidmanu		// 1991.09 Spiderman (US)
+				// 1991.09 Spiderman (Japan)
+f1en			// 1991.?? F-1 Exhaust Note (World)
+				// 1992.01 F-1 Exhaust Note (US)
+				// 1991.11 F-1 Exhaust Note (Japan)
+arabfgt			// 1992.?? Arabian Fight (World)
+arabfgtu		// 1992.03 Arabian Fight (US)
+arabfgtj		// 1992.03 Arabian Fight (Japan)
+arescue			// 1992.03 Air Rescur (US)
+				// 1992.04 Air Rescue (Japan)
+ga2				// 1992.?? Golden Axe II (World)
+ga2u			// 1992.09 Golden Axe II (US)
+ga2j			// 1992.10 Golden Axe Death Adder no Fukusyuu (Japan)
+holo			// 1992.?? Hologram Holosseum (US)
+				// 1992.11 Hologram Holosseum (Japan)
+darkedge		// 1993.?? Dark Edge (World)
+				// 1993.?? Dark Edge (US)
+darkedgej		// 1993.03 Dark Edge (Japan)
+brival			// 1993.?? Burning Rival (World)
+brivalj			// 1993.08 Burning Rival (Japan)
+f1lap			// 1993.?? F-1 Super Lap (World)
+				// 1993.09 F-1 Super Lap (Japan)
+alien3			// 1993.?? Aliens 3 (World)
+alien3u			// 1993.11 Aliens 3 (US)
+				// 1993.09 Aliens 3 the Gun (Japan)
+sonic			// 1993.09 Sonic the Hedgehog (Japan)
+sonicp			// 1993.?? Sonic the Hedgehog (proto, Japan)
+kokoroj2		// 1993.12 Soreike! Kokoroji 2 (Japan)
+jpark			// 1994.?? Jurassic Park (World)
+				// 1994.?? Jurassic Park (US)
+				// 1994.02 Jurassic Park (Japan)
+dbzvrvs			// 1994.03 Dragon Ball Z V.R.V.S. (Japan)
+jleague			// 1994.07 The J League 1994 (Japan)
+svf				// 1994.?? Super Visual Football
+svs				// 1994.?? Super Visual Soccer
+slipstrm		// 1995.?? Slip Stream (Capcom)
+slipstrmh
+
+// Sega Multi System 32 games
+orunners		// 1993.?? Outrunners (World)
+orunnersu		// 1993.06 Outrunners (US)
+orunnersj		// 1993.05 Outrunners (Japan)
+harddunkj		// 1994.04 Hard Dunk 3on3 (Japan)
+harddunk		// 1994.?? Hard Dunk 3on3 (World)
+				// 1993.03 Title Fight (Japan)
+titlef			// 1993.?? Title Fight (World)
+titlefu			// 1993.04 Title Fight (US)
+				// 1992.07 Stadium Cross (Japan)
+scross			// 1992.?? Stadium Cross (World)
+scrossu			// 1992.09 Stadium Cross (US)

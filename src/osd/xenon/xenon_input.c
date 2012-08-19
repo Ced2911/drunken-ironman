@@ -1,9 +1,18 @@
+
 #include "emu.h"
+#include "ui.h"
+#include "uiinput.h"
+#include "emuopts.h"
 #include "osdepend.h"
 #include "render.h"
 #include "clifront.h"
+#include "ioport.h"
+
+// osd
 #include "osdxenon.h"
 #include "xenon.h"
+
+// Xenon
 #include <debug.h>
 #include <usb/usbmain.h>
 #include <input/input.h>
@@ -185,38 +194,38 @@ void osd_xenon_update_input() {
 
 void osd_xenon_customize_input_type_list(simple_list<input_type_entry> &typelist) {
     input_type_entry *entry;
-#if 0
+#if 1
     // loop over the defaults
     for (entry = typelist.first(); entry != NULL; entry = entry->next()) {
-        switch (entry->type) {
+        switch (entry->type()) {
             case IPT_UI_CONFIGURE:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON16);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON16);
                 break;
 
             case IPT_UI_UP:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON10);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON10);
                 break;
             case IPT_UI_DOWN:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON13);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON13);
                 break;
             case IPT_UI_LEFT:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON11);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON11);
                 break;
             case IPT_UI_RIGHT:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON12);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON12);
                 break;
 
             case IPT_JOYSTICK_UP:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON10);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON10);
                 break;
             case IPT_JOYSTICK_DOWN:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON13);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON13);
                 break;
             case IPT_JOYSTICK_LEFT:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON11);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON11);
                 break;
             case IPT_JOYSTICK_RIGHT:
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON12);
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON12);
                 break;
 
             case IPT_UI_CANCEL:
@@ -224,9 +233,8 @@ void osd_xenon_customize_input_type_list(simple_list<input_type_entry> &typelist
                 break;
                 
             case IPT_OSD_1:
-                entry->token = "MAME_UI_EXIT";
-                entry->name = "Exit mame";
-                entry->defseq[SEQ_TYPE_STANDARD].set(JOYCODE_BUTTON14, JOYCODE_BUTTON15); // s1 + s2
+                entry->configure_osd("MAME_UI_EXIT","Exit mame");
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON14, JOYCODE_BUTTON15); // s1 + s2
                 break;
 
                 
@@ -238,7 +246,7 @@ void osd_xenon_customize_input_type_list(simple_list<input_type_entry> &typelist
             case IPT_JOYSTICKLEFT_DOWN:
             case IPT_JOYSTICKLEFT_LEFT:
             case IPT_JOYSTICKLEFT_RIGHT:
-                entry->defseq[SEQ_TYPE_STANDARD].set();
+                entry->defseq(SEQ_TYPE_STANDARD).set();
                 break;
         }
     }

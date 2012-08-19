@@ -267,7 +267,7 @@ static MameVerticeFormats * CreateRectHlsl(float width, float height, MameVertic
 }
 
 static void pre_render() {
-    while (!Xe_IsVBlank(g_pVideoDevice));
+    //while (!Xe_IsVBlank(g_pVideoDevice));
 
     // sync before drawing
     Xe_Sync(g_pVideoDevice);

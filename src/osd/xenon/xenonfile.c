@@ -42,6 +42,7 @@
 #include "osdcore.h"
 #include <stdlib.h>
 #include <debug.h>
+#include <sys/stat.h>
 
 extern "C" int mkdir(const char *pathname, mode_t mode);
 
@@ -52,6 +53,7 @@ static UINT32 create_path_recursive(char *path) {
     printf("create_path_recursive : %s\r\n",path);
     char *sep = strrchr(path, PATHSEPCH);
     UINT32 filerr;
+    struct stat st;
 
     // if there's still a separator, and it's not the root, nuke it and recurse
     if (sep != NULL && sep > path && sep[0] != ':' && sep[-1] != PATHSEPCH) {
@@ -61,11 +63,14 @@ static UINT32 create_path_recursive(char *path) {
         if (filerr != NO_ERROR)
             return filerr;
     }
-/*
+    // if the path already exists, we're done
+	if (!stat(path, &st))
+		return NO_ERROR;
+
     // create the path
     if (mkdir(path, 0777) != 0)
         return -1;
- */ 
+        
     return NO_ERROR;
 }
 
