@@ -201,6 +201,10 @@ void osd_xenon_customize_input_type_list(simple_list<input_type_entry> &typelist
             case IPT_UI_CONFIGURE:
                 entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON16);
                 break;
+                
+            case IPT_UI_PAUSE:
+                 entry->defseq(SEQ_TYPE_STANDARD).set (JOYCODE_BUTTON15);
+                 break;
 
             case IPT_UI_UP:
                 entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON10);
@@ -226,6 +230,18 @@ void osd_xenon_customize_input_type_list(simple_list<input_type_entry> &typelist
                 break;
             case IPT_JOYSTICK_RIGHT:
                 entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON12);
+                break;                
+            case IPT_JOYSTICKRIGHT_UP:
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON10, JOYCODE_BUTTON12);
+                break;
+            case IPT_JOYSTICKLEFT_UP:
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON10, JOYCODE_BUTTON11);
+                break;
+            case IPT_JOYSTICKRIGHT_DOWN:
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON13, JOYCODE_BUTTON12);
+                break;
+            case IPT_JOYSTICKLEFT_DOWN:
+                entry->defseq(SEQ_TYPE_STANDARD).set(JOYCODE_BUTTON13, JOYCODE_BUTTON11);
                 break;
 
             case IPT_UI_CANCEL:
@@ -238,12 +254,8 @@ void osd_xenon_customize_input_type_list(simple_list<input_type_entry> &typelist
                 break;
 
                 
-            case IPT_JOYSTICKRIGHT_UP:
-            case IPT_JOYSTICKRIGHT_DOWN:
             case IPT_JOYSTICKRIGHT_LEFT:
             case IPT_JOYSTICKRIGHT_RIGHT:
-            case IPT_JOYSTICKLEFT_UP:
-            case IPT_JOYSTICKLEFT_DOWN:
             case IPT_JOYSTICKLEFT_LEFT:
             case IPT_JOYSTICKLEFT_RIGHT:
                 entry->defseq(SEQ_TYPE_STANDARD).set();

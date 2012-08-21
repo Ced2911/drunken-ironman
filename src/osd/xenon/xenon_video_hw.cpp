@@ -26,6 +26,8 @@
 #include "gui/video.h"
 #include "gui/video_mame.h"
 
+
+
 render_target *xenos_target;
 
 
@@ -45,11 +47,12 @@ static void pre_render() {
 
 }
 
-static void render() {
-    
-    Menu_Render();
-    extern void MameFrame();
-    MameFrame();
+static void render()
+{
+	extern void MameFrame();
+	extern void MameRender();
+	MameRender();
+	MameFrame();
 }
 
 static void osd_xenon_video_thread() {
